@@ -10,8 +10,8 @@ public class string5 {
         String str = in.nextLine();
         str = str.replaceAll(" ", "");
         String result = String.valueOf(str.charAt(0));
-        for (int i = 1; i < str.length() ; i++) {
-            if (result.indexOf(str.charAt(i)) == -1){
+        for (int i = 1; i < str.length(); i++) {
+            if (result.indexOf(str.charAt(i)) == -1) {
                 result = result.concat(String.valueOf(str.charAt(i)));
             }
         }

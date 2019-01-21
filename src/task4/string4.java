@@ -10,11 +10,11 @@ public class string4 {
         Scanner in = new Scanner(System.in);
         System.out.println("Input the string:");
         String str = in.nextLine();
-        String temp = "";
+        String temp = "" ;
         boolean switcher = false;
         int index = 0;
         while (index < str.length()) {
-            while ( index < str.length() && str.charAt(index) > 47 && str.charAt(index) < 58) {
+            while (index < str.length() && str.charAt(index) > 47 && str.charAt(index) < 58) {
                 if (switcher) {
                     temp = temp.concat(" ");
                     switcher = false;

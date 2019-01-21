@@ -8,8 +8,22 @@ public class string9 {
         Scanner in = new Scanner(System.in);
         System.out.println("Input the string:");
         String string = in.nextLine();
-        string = string.trim();
-        string = string.replaceAll("[ ]{2,}"," ");
-        System.out.println(string);
+//        result = string.replaceAll("[ ]{2,}", " ");
+        String result = "" ;
+        int count = 0;
+        for (int i = 0; i < string.length(); i++) {
+            if (!(string.charAt(i) == ' ')) {
+                result = result.concat(String.valueOf(string.charAt(i)));
+                count = 0;
+            } else {
+                count ++;
+                if (count > 1) {
+                    continue;
+                } else {
+                    result = result.concat(String.valueOf(string.charAt(i)));
+                }
+            }
+        }
+        System.out.println(result.trim());
     }
 }
