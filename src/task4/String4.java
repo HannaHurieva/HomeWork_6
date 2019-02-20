@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 // Отфильтровать из строки числа
 // example: дана строка "data 48 call 9 read13 blank0a", в массиве должны оказаться числа 48, 9, 13 и 0.
-public class string4 {
+public class String4 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         System.out.println("Input the string:");

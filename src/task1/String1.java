@@ -3,7 +3,7 @@ package task1;
 import java.util.Scanner;
 
 // Составить из букв введенной строки слова
-public class string1 {
+public class String1 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         System.out.println("Input the string:");

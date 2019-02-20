@@ -3,7 +3,7 @@ package task9;
 import java.util.Scanner;
 
 // Удаление лишних пробелов
-public class string9 {
+public class String9 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         System.out.println("Input the string:");

@@ -3,7 +3,7 @@ package task10;
 import java.util.Scanner;
 
 // Количество строчных и прописных букв в строке
-public class string10 {
+public class String10 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         System.out.println("Input the string:");

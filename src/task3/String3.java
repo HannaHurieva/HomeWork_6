@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 // Удалить из строки пробелы и определить, является ли она перевертышем
 // example: a roza upala na lapu azora
-public class string3 {
+public class String3 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         System.out.println("Input the string:");

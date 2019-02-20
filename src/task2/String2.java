@@ -3,7 +3,7 @@ package task2;
 import java.util.Scanner;
 
 // Является ли строка идентификатором
-public class string2 {
+public class String2 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         System.out.println("Input the string:");
@@ -17,12 +17,13 @@ public class string2 {
     }
 
     private static boolean isValidIdentifier(String string) {
-        if (!('a' <= string.toLowerCase().charAt(0) && string.toLowerCase().charAt(0) <= 'z' || string.charAt(0) == '_')) {
+        char[] strToArray = string.toLowerCase().toCharArray();
+        if (!('a' <= strToArray[0] && strToArray[0] <= 'z' || strToArray[0] == '_')) {
             return false;
         } else for (int i = 1; i < string.length(); i++) {
-            if (!('a' <= string.toLowerCase().charAt(i) && string.toLowerCase().charAt(i) <= 'z'
-                    || string.charAt(0) == '_'
-                    || string.charAt(0) > 47 && string.charAt(0) < 58)) {
+            if (!('a' <= strToArray[i] && strToArray[i]  <= 'z'
+                    || strToArray[i]  == '_'
+                    || strToArray[i]  > 47 && strToArray[i]  < 58)) {
                 return false;
             }
         }

@@ -3,7 +3,7 @@ package task5;
 import java.util.Scanner;
 
 // Удаление из строки повторяющихся символов и всех пробелов
-public class string5 {
+public class String5 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         System.out.println("Input the string:");

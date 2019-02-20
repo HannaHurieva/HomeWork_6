@@ -3,7 +3,7 @@ package task7;
 import java.util.Scanner;
 
 // Самая длинная строка в массиве
-public class string7 {
+public class String7 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         System.out.println("Input the number of strings :");
